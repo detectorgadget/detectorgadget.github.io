@@ -196,6 +196,18 @@ ul, ol, dl {
   margin-bottom: 20px;
 }
 
+#nav {
+  position: relative;
+  height: 0;
+}
+
+nav {
+  position: absolute;
+  right: 110%;
+  width: 150px;
+  top: 0;
+}
+
 
 /* COMMON STYLES */
 
