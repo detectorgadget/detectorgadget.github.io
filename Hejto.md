@@ -4,7 +4,7 @@ hej: med dig
 ---
 
 
-Hej {{ page.hej }}!
+HejTo! {{ page.hej }}!
 
 [Link til forsiden](index.html)
 
