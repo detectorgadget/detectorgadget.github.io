@@ -1,3 +1,3 @@
 * [Home](index.html)
 * [Hej](hej.html)
-* [Hej to](hejto.html)
+* [Hej to](Hejto.html)
