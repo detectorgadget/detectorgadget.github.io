@@ -1,3 +1,3 @@
 * [Home](index.html)
-* [Hej](hej.html)
+* [Hej](hejny.html)
 * [The Project Idea](theproject.html)
