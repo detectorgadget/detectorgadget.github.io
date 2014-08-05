@@ -2,11 +2,12 @@
 layout: default
 ---
 
-##The Project Idea
 
+Hej {{ page.hej }}!
 
-Ny ændring! {{ page.hej }}!
+Vi skal se, om dette virker.. Med project
 
+[Link til forsiden](index.html)
 
 * Det
 * er
