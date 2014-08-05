@@ -1,6 +1,5 @@
 ---
 layout: default
-Theproject: med dig
 ---
 
 ##The Project Idea
