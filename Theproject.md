@@ -1,6 +1,6 @@
 ---
 layout: default
-The project: med dig
+Theproject: med dig
 ---
 
 
