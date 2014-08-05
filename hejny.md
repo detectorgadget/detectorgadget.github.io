@@ -5,7 +5,7 @@ layout: default
 
 Hej {{ page.hej }}!
 
-Vi skal se, om dette virker..
+Vi skal se, om dette virker.. Hmm.. 
 
 [Link til forsiden](index.html)
 
