@@ -5,7 +5,7 @@ layout: default
 ##The Project Idea
 
 
-HejTo! {{ page.hej }}!
+Ny ændring! {{ page.hej }}!
 
 
 * Det
