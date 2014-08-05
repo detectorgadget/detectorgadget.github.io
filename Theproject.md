@@ -3,10 +3,11 @@ layout: default
 Theproject: med dig
 ---
 
+##The Project Idea
+
 
 HejTo! {{ page.hej }}!
 
-[Link til forsiden](index.html)
 
 * Det
 * er
