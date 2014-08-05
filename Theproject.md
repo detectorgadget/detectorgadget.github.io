@@ -1,9 +1,10 @@
 ---
 layout: default
+theproject: med dig
 ---
 
 
-Hej {{ page.hej }}!
+Hej!
 
 Vi skal se, om dette virker.. Med project
 
