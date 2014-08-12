@@ -1,5 +1,6 @@
 ---
 layout: default
+matmeth: hjemmeside
 ---
 ## Materials and methods
 
