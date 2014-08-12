@@ -3,4 +3,4 @@ layout: default
 ---
 ## Polymerase Chain Reaction
 
-For assembling the DNA 
+For assembling the DNA into
