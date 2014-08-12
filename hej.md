@@ -1,12 +1,11 @@
 ---
 layout: default
-hej: med dig
 ---
 
 
 Hej {{ page.hej }}!
 
-Vi skal se, om dette virker..
+Vi skal se, om dette virker.. Nu slettede jeg hej: med dig
 
 [Link til forsiden](index.html)
 
