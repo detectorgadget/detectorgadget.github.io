@@ -1,6 +1,5 @@
 ---
 layout: default
-theproject: med dig
 ---
 
 
