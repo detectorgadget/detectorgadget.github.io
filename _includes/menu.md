@@ -1,5 +1,5 @@
 * [Home](index.html)
 * [The Project Idea](projectidea.html)
-..* [Concentration dependence](concdependence.html)
-..* [Orthogonality of fluorescence](orthogonality.md)
+  * [Concentration dependence](concdependence.html)
+  * [Orthogonality of fluorescence](orthogonality.md)
 * [Materials and Methods](Matmeth.html)
