@@ -1,4 +1,3 @@
 * [Home](index.html)
-* [Hej](hejny.html)
-* [The Project Idea](theproject.html)
+* [The Project Idea](project idea.html)
 * [Materials and Methods](Matmeth.html)
