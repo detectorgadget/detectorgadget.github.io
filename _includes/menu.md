@@ -1,7 +1,7 @@
 * [Home](index.html)
 * [The Project Idea](Projectidea.html)
   * [Concentration dependence](concdependence.html)
-  * [Orthogonality of fluorescence](orthogonality.html)
+  * [Broad dynamic range](broaddynamicrange.html)
   * [In vivo](invivo.html)
   * [Goals](goals.html)
 * [Results](results.html)
