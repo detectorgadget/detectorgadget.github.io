@@ -10,6 +10,6 @@
 * [Materials and Methods](materialsmethods.html)
   * [PCR](PCR.html)
   * [Transcription](transcription.html)
-  * [Fluorephore synthesis](fluosynthesis.html)
+  * [Fluorophore synthesis](fluosynthesis.html)
   * [Fluorescence measurements](fluorescence.html)
 * [About us](about.html)
