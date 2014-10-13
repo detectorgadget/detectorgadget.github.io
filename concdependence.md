@@ -12,6 +12,4 @@ The most important aspect of our project is to show that it is possible to creat
 
 ###Broad dynamic range
 
-The dynamic range is the area in which the sensor is able to detect a concentration change. This area depends on the binding affinity between the sensor and the metabolite that it should detect, the K<sub>d</sub>-value. To broaden the dynamic range of the sensor, constructs with different K~d~-values will be combined - see [thefinalconstruct.html].The K~d~-value is found experimentally by making numerous measurements with varying metabolite concentrations. The data are than plotted in a graph, fluorescence intensity versus metabolite concentration and the Kd-value is found as the point where the slope of the graph is highest.
-
-°
+The dynamic range is the area in which the sensor is able to detect a concentration change. This area depends on the binding affinity between the sensor and the metabolite that it should detect, the K_d_-value. To broaden the dynamic range of the sensor, constructs with different K_d_-values will be combined - see [thefinalconstruct.html].The K_d_-value is found experimentally by making numerous measurements with varying metabolite concentrations. The data are than plotted in a graph, fluorescence intensity versus metabolite concentration and the Kd-value is found as the point where the slope of the graph is highest.
