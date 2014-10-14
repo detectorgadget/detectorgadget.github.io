@@ -4,7 +4,7 @@ layout: default
 
 ##The original construct
 
-One of the many qualities of aptamers is the fact that an aptamer can be found, that selectively binds to almost anything. When an aptamer binds a molecule, it can even induce a change in the molecule which can lead to fluorescence that is only apparent when the aptamer binds the fluorophore - this is called an optical aptamer, and this is for obvious reasons perfect for a sensor. Though to this day most sensors based on aptamers only detect model molecules like SAM, adenosine triphosphate (ATP) and Thrombin, it is possible to make aptamer sensors for molecules that are currently difficult to detect otherwise.
+One of the many qualities of aptamers is the fact that an aptamer can be found, that selectively binds to almost anything. When an aptamer binds a molecule, it can even induce a change in the molecule which can lead to fluorescence that is only apparent when the aptamer binds the fluorophore - this is called an optical aptamer, and this is for obvious reasons perfect for a sensor. Though to this day most sensors based on aptamers only detect model molecules like S-adenosyl methionine (SAM), adenosine triphosphate (ATP) and Thrombin, it is possible to make aptamer sensors for molecules that are currently difficult to detect otherwise.
 
 Paige et. al. found in 2012 that by combining a fluorescent aptamer (Spinach) with a metabolite recognizing aptamer as seen in figure XX, they could detect a specific metabolite by fluorescence experiments. They even showed that the system still worked when using a different metabolite recognizing aptamer, showing the great flexibility of the system.
 
