@@ -2,4 +2,4 @@
 layout: default
 ---
 
-## Measurements of K~d~
+## Measurements of orthogonal aptamers
