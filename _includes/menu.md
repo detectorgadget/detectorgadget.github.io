@@ -11,6 +11,8 @@
   * [Finding the K~d~ value](kddata.html)
   * [Goals reached](reachedgoals.html)
 * [Supplementary information](supplementary.html)
+  * [Bibliography](bibliography.html)
+  * [Supplementary figures](supplementaryfigures.html)
   * [PCR](PCR.html)
   * [Transcription](transcription.html)
   * [Fluorophore synthesis](fluosynthesis.html)
