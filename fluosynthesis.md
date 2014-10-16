@@ -2,9 +2,7 @@
 layout: default
 ---
 
-## DFHBI synthesis
-
-## Small Molecule Fluorophore Synthesis
+##Fluorophore Synthesis
 
 3,5-difluoro-4-hydroxy benzaldehyde (1)
 To a round-bottomed flask 2,6-difluorophenol (1.50 g, 11.5 mmol) and hexamethylenetetramine (1.60 g, 11.5 mol) in TFA (10 mL) was added. The mixture heated at reflux under argon overnight. The solution was then cooled to room temperature and the solvent was evaporated *in vacuo*. The crude residue was mixed with  CH~2~Cl~2~ and washed with NaHCO~3~. The aqueous layers were acidified to pH 1 with concentrated HCl. The solution
