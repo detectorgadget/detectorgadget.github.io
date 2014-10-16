@@ -8,6 +8,6 @@ A vital part of the experiment was to test whether the constructs could be expre
 
 (Figur fra word)
 
-Disguised as natural RNA inside the E. coli cell, it can take advantage of the host cells cell machinery, and therefore evades the cellular RNase. This happens because the cellular enzymes recognize it as tRNA and process the primary transcript and even goes so far as to incorporate modified nucleotides.  Another consequence of the scaffold is procession; the RNA has a defined length and avoids the heterogeneity, which usually is a problem with recombinant RNA expressed in vivo. While being surrounded by the scaffold, the RNA is still functional inside the cell and accumulate stably inside them as well. 
+(Figur fra word)
 
-Så okay, jeg gav op på at skrive mere - jeg ved ikke nok om det. :) Hvordan får vi dem ind i cellen? Er det RNA constructs der fyres ind i cellen eller er det plasmider, eller en anden form for DNA? Der står bare at vi udnytter cellens celle maskineri, men jeg ved ikke hvad det indbefatter?
+To get the constructs inside the cells, we pack them into DNA plasmids. The cells get transformed with the plasmid with electroporation, but the cheaper alternative heatshock could also be used. Once inside the cell, the constructs can take advantage of the host cells cell machinery to get transcribed and processed as natural E. Coli tRNA, and therefore evades the cellular RNase. Another consequence of the scaffold is procession; the RNA has a defined length and avoids the heterogeneity, which usually is a problem with recombinant RNA expressed in vivo. While being surrounded by the scaffold, the RNA is still functional inside the cell and accumulate stably inside them as well. 
