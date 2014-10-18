@@ -11,13 +11,13 @@ Maria skriver:
 "... and molecular biology, respectively."
 "Each of our bachelors projects is build into the main project, the Detector Gadget. We have worked both..."
 
-Skal der også være noget om alle? Felt, undergraduate, graduate osv., delprojekt evt., hobbier?
+Skal der ogsÃ‚ vÃŠre noget om alle? Felt, undergraduate, graduate osv., delprojekt evt., hobbier?
 Christina
 Jane
 Leandro
 Trine
 Maria
-Thorbjørn
+ThorbjÂ¯rn
 
 Denis
 HC
@@ -26,7 +26,7 @@ Bircan
 
 Ebbe
 Kurt
-Jørgen
+JÂ¯rgen
 Rikke
 Thomas
 
@@ -37,4 +37,4 @@ Thomas
 
 
 098
-
+
