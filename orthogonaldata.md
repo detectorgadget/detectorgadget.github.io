@@ -14,6 +14,7 @@ Orthogonality tests were designed to test the fluorescence of the two aptamers w
 
 Based on these data in can be concluded that Mango will be able to serve as an internal control for our sensor. 
 
-[Figure orthogonaldata2.png]
+(_pictures/orthogonaldata2.png)
 
 [Figure orthogonaldata3.png]
+
