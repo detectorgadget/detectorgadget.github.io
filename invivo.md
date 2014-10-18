@@ -11,19 +11,19 @@ A vital part of the experiment was to test whether the constructs could be expre
 
 To get the constructs inside the cells, we pack them into DNA plasmids. The cells get transformed with the plasmid with electroporation, but the cheaper alternative heatshock could also be used. Once inside the cell, the constructs can take advantage of the host cells cell machinery to get transcribed and processed as natural E. Coli tRNA, and therefore evades the cellular RNase. Another consequence of the scaffold is procession; the RNA has a defined length and avoids the heterogeneity, which usually is a problem with recombinant RNA expressed in vivo. While being surrounded by the scaffold, the RNA is still functional inside the cell and accumulate stably inside them as well. 
 
-Maria skriver (Christina, det kan være at jeg lige skal være der når du gennemgår de her rettelser - og også Leandro):
-"... could be expressed in the cell and also would still work in vivo" - jeg er ikke sikker på hvad forskellen er?
+Maria skriver (Christina, det kan vÃŠre at jeg lige skal vÃŠre der nÃ‚r du gennemgÃ‚r de her rettelser - og ogsÃ‚ Leandro):
+"... could be expressed in the cell and also would still work in vivo" - jeg er ikke sikker pÃ‚ hvad forskellen er?
 "..., the cell have RNases that will degrade the RNA."
-"... when designing RNA constructs..." - "*in vivo*" ? In vivo skal stå med skråskrift?
+"... when designing RNA constructs..." - "*in vivo*" ? In vivo skal stÃ‚ med skrÃ‚skrift?
 "To protect the RNA tRNA scaffolds is used as camouflage."
-"... replaced in the scaffold with the RNA construct insert via..." der skal måske være mere præcise henvisninger til hvor på figuren at disse restriktions sites er
+"... replaced in the scaffold with the RNA construct insert via..." der skal mÃ‚ske vÃŠre mere prÃŠcise henvisninger til hvor pÃ‚ figuren at disse restriktions sites er
 "..., we wrap them in DNA plasmids."
 "The cells is transformed..." - "... the plasmid by electroporation,..." - hvorfor skal det med, det med heatshock?
 "... take advantage of the host cell's cell machinery..."
-"the RNA has a defined length and avoids heterogeneity," - forstår jeg ikke.
+"the RNA has a defined length and avoids heterogeneity," - forstÃ‚r jeg ikke.
 "... inside the cell and accumulate steadily."
 GENERELT: 
-Kan vi måske sige tRNA scaffold hver gang, da man (jeg) ellers bliver forvirret i hvilket scaffold? - det samme for RNA --> RNA construct?
+Kan vi mÃ‚ske sige tRNA scaffold hver gang, da man (jeg) ellers bliver forvirret i hvilket scaffold? - det samme for RNA --> RNA construct?
 Datid eller nutid? Konsistent omkring det!
 
 
