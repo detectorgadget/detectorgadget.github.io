@@ -11,8 +11,14 @@ A 12% polyacrylamide gel consists of 19mL Urea concentrate, 4mL TBE(10x), 17mL U
 
 The gel was prerun at 600V for 15 minutes before loading RNA samples with RNA loading buffer (0,6mL of 0,5M EDTA, 700 Î¼L of a mixture of formamide, xylencyanol and bromophenol blue supplied by H. C. HÃ¸iberg and 13,7 mL formamide). It was mixed 1:1 with RNA samples. 
 
+*
+**
 
 ###PRECIPITATION
 Ethanol precipitation was used to extract RNA from the 8% polyacrylamide gel. The bands were cut out and left overnight in 300Î¼L extraction buffer (0,3M NaAc, 0,25mM EDTA) on a shaker at 4Â°C. The next day the samples were centrifuged at 17.000 rpm at room temperature for 15 minutes, the supernatant was transferred to a new tube and mixed with 750 Î¼L 96% ethanol.  After vortexing, the samples were put on dry ice (-80Â°C) for 15 minutes and centrifuged again at 17.000 rpm at 4Â°C for 15 minutes. The supernatant was discarded, and 100-200 Î¼L 70% ethanol was added, and centrifuged at 4Â°C for 15 minutes. The supernatant was again discarded and the pellets were dried under a fumehood and solvated in 50 Î¼L water.
 For measuring the concentrations of the purified RNA transcripts, the NanoDrop 1000 spectrophotometer was used.
+
+* Tænker at det ikke er vigtigt at nævne at vi prerunner den. Det synes jeg aldrig man gør i artikler 
+** Skal vi nævne at vi har fået RNA loading buffer fra H.C? Det er sådan en lille ting vi har fået fra ham?
+
 
