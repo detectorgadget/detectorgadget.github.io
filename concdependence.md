@@ -23,3 +23,5 @@ The different constructs can be seen below.
 
 The dynamic range is the area in which the sensor is able to detect a concentration change. The range depends on the binding affinity between the sensor and the target that it should detect, called the dissociation constant or the K~d~-value. To broaden the dynamic range of the sensor, constructs with different K~d~-values will be combined - see [The final construct](thefinalconstruct.html). Figure 3 shows the theory behind combining sensors with different K~d~-values. 
 The K~d~-value is found experimentally by making numerous measurements with varying target concentrations. The data are than plotted in a graph, fluorescence intensity versus target concentration and the K~d~-value is found as the target concentration corresponding to half of the maximum fluorescence. 
+
+[concdependence3.png]
