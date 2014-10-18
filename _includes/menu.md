@@ -3,7 +3,7 @@
   * [Goals](goals.html)
   * [The original construct](theoriginalconstruct.html)
   * [Concentration dependence](concdependence.html)
-  * [Finding an internal control](mangocontrol.html)
+  * [Finding an internal control](internalcontrol.html)
   * [In vivo](invivo.html)
   * [The final construct](thefinalconstruct.html)
 * [Results](results.html)
