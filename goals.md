@@ -17,11 +17,11 @@ The ultimate goal was to create a sensor which combined two or more sensors with
 
 * Verify the results from PCR and transcription with gel electrophoresis
 
+*
 
+* Reproduce results concerning optical aptamers found in the articles by Paige, et. al. (2011) and Dolgosheina, et. al. (2014).
 
-* Reproduce results concerning optical aptamers found in the articles by Paige, et. al. (2011) and Dolgosheina, et. al. (2014). 
-
-
+*
 
 * Design mutations in the spinach-based SAM detecting sensor from the article by Paige, et. al. (2012). 
 
@@ -32,9 +32,9 @@ The ultimate goal was to create a sensor which combined two or more sensors with
 * Find the dissociation constants for the functional constructs
 
 
-* Test constructs in vivo (Skal ‚àö¬∂ndres til hvilken type af konstrukter der rent faktisk er kommet ind i cellen)
+* Test sensor constructs *in vivo* 
 
-
+*
 
 * Search the literature for aptamers orthogonal to Spinach
 
@@ -47,7 +47,7 @@ The ultimate goal was to create a sensor which combined two or more sensors with
 
 * Test the orthogonality of Spinach & other aptamers
 
-
+*
 
 * Design the total construct (Salad construct)
 
