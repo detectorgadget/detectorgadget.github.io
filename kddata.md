@@ -5,9 +5,13 @@ layout: default
 ## Measurements of K~d~
 
 The mutated RNA constructs were tested for effect by a series of measurements of the fluorescence of 
-* DFHBI, 
+
+* DFHBI
+
 * DFHBI & RNA 
+
 * DFHBI, RNA & SAM
+
 The final concentrations of SAM in the first trial was 10x, 100x and 10.000x the concentration of RNA, which was held at 0,26 µM. This was tried on our 10 constructs, which gave the results seen in figure 1.
 
 [Figure kddata1.png]
