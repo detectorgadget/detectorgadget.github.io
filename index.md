@@ -2,8 +2,6 @@
 layout: default
 ---
 
-Welcome to the Detector Gadget page!
-
 ## Small Molecule Detection – Engineering Spinach Based Biosensors 
 
 

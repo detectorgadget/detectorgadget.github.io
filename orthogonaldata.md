@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Measurements of orthogonal aptamers
+##Measurements of orthogonal aptamers
 
 To find aptamers orthogonal with the Spinach aptamer we created the 5 aptamers from the article by Paige et. al, 2011 along with their respective fluorophores (See [Supplementary](supplementary.html) ). The first step of the orthogonality experiments was to find an aptamer that had a fluorescence enhancement of the same magnitude as Spinach. Therefore we tested the fluorophores on their own with their correct fluorophore, at their optimum excitation wavelengths according to the article. Their individual fluorescent enhancement are shown in figure xx, along with the experimentally decided fluorescence enhancement of Spinach. 
 

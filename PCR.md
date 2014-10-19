@@ -8,7 +8,8 @@ layout: default
 
 To assemble the DNA strands longer than 100 bp, assembly PCR was used. To amplify the DNA sequences shorter than 100 bp or after assembly PCR regular PCR was used. All PCR products were quality controlled on a 1% agarose gel.
 
-### Assembly PCR. The assembly PCR was carried out by splitting the DNA sequences into three fragments (i), (ii) and (iii), with an overhang of approximately 20 nt with a melting temperature of approximately 55°C. First the (i) and (ii) fragment assemble and during the next cycle (iii) assembles onto the (i+ii) fragment.(Billede + figurtekst fra word)
+### Assembly PCR. The assembly PCR was carried out by splitting the DNA sequences into three fragments (i), (ii) and (iii), with an overhang of approximately 20 nt with a melting temperature of approximately 55°C. First the (i) and (ii) fragment assemble and during the next cycle (iii) assembles onto the (i+ii) fragment.(pcr1.png)
+
 
 For the assembly PCR a mixture of 10μL 10x Buffer, 0,8μL 100mM dNTP, 3μL 50mM MgCl2 and 75,69μL H2O was made. The three sequences were then added, but to make sure the (i+ii) fragments didn’t anneal with its complementary (ii) strand instead of the the (iii) fragment, the fragments (i) and (iii) were added in 500x excess. Therefore 5μL of fragment (i) and (iii) were added and 0,01μL of fragment (ii). Just before running the 30-cycle PCR, 0,5μL Taq DNA polymerase was added. The program was initiated for 3 minutes at 94°C, then 30 cycles of: denaturation at 94°C for 30 sec., annealing at 50°C/52°C for 45 sec. and elongation at 72°C for 90 sec. At the end it elongated at 72°C for 10 minutes.
 
