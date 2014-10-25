@@ -1,8 +1,0 @@
---- 
-layout
----
-
-##Finding a suitable internal control
-Another aspect of the project is to find another RNA aptamer for internal control, which is orthogonal to the Spinach-DFHBI complex. The internal control and the Spinach constructs need to be orthogonal in two ways. The maximum emission wavelengths must be different from one another, and the RNA aptamers should not be capable of binding each others fluorophores. Furthermore, the fluorescent enhancement of the aptamers should be in the same order of magnitude.
-The aptamer-fluorophore complexes from the article by Paige et. al., 2011 all have maximum emission wavelengths at different places. These aptamers were recreated, the fluorophores were synthesized and the complexes were tested for fluorescent enhancement at the fluorometer, Fluoro-Max-3. In August 2014 the Mango aptamer and its thiazol orange derivative fluorophore, TO3, were discovered and published by Dolgosheina et. al. These were also synthesized for orthogonality testing. The Mango-TO3-complex  is expected to have a fluorescence enhancement in the same order of magnitude as Spinach, which will make this aptamer-complex suitable for an internal control. The maximum fluorescence is expected to be at 660 nm, which is well away from the maximum fluorescence of Spinach at 497 nm. 
-Experiments will be conducted to test if the Spinach aptamer can bind the Mango fluorophore or if the Mango aptamer can bind the DFHBI. If they don’t bind to the fluorophore of each other, the fluorescence signal will be specific and that will make Mango suitable for being the internal control in the sensor system.  [internalcontrol.png]

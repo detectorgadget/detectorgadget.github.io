@@ -1,0 +1,160 @@
+---
+layout: page
+title: "Results"
+sub-title: "Project Results"
+description: "Project Sub-description"
+header-img: "/img/about-bg.jpg"
+sections:
+- Kd data
+- Internal control
+- In vivo experiments
+- Goals reached
+
+---
+
+<section id="Kddata">
+
+<h1>Measurements of K<sub>d</sub></h1>
+
+Here we will show the designed mutations for concentration dependency and the fluorescence measurements to find their K<sub>d</sub> value. 
+
+<h2>Design of mutations</h2>
+
+Copy in from "The project"
+
+<h2>Assembly and transcription</h2>
+
+Pictures of gels. And some text.
+
+
+<img src="{{ site.baseurl }}/img/theproject/supplementaryfigures1.png" class="img-responsive img-center">
+Figure x: PCR
+
+<img src="{{ site.baseurl }}/img/theproject/supplementaryfigures2.png" class="img-responsive img-center">
+Figure Y: Transcription gel
+
+
+<h2>Validation of K<sub>d</sub> value</h2>
+
+The mutated RNA constructs were tested for effect by a series of measurements of the fluorescence of 
+
+<ul>
+	<li>DFHBI</li>
+	<li>DFHBI & RNA</li>
+	<li>DFHBI, RNA & SAM</li>
+</ul>
+
+<p>The final concentrations of SAM in the first trial was 100x, 1,000x and 10,000x the concentration of RNA, which was held at 0.26 µM. This was tried on our 10 constructs, which gave the results seen in figure 1.</p>
+
+<img src="{{ site.baseurl }}/img/theproject/kddata1.png" class="img-responsive img-center">
+Figure 1: Fluorescence relative to the fluorescence of DFHBI after 10 minutes of adding: DFHBI (light blue), RNA (orange), and SAM in 3 different concentrations: 100x[RNA] (grey), 1.000x[RNA] (yellow) and 10.000x[RNA] (dark blue). The last measurement is a control with no added RNA. 
+
+<p>The only 2 constructs responding to DFHBI and SAM are T1 and T2. T1 is the original sensor from Paige, et. al. 2013, except for a few improvements on the optical sensor, and T2 is a mutated form of T1 with an AT-basepair instead of a GC-basepair in the linker region. These two were selected for further testing, where the K<sub>d</sub> value was determined by more sensitive addition of SAM. This lead to the graphs in figure 2, which show an average over 3 series of measurements on each construct.</p>
+
+<img src="{{ site.baseurl }}/img/theproject/kddata2ny.png" class="img-responsive img-center">
+Figure 2: Normalized fluorescence as a function of the concentration of SAM on a logarithmic scale for T1 and T2. Both series are an average of 3 series of measurements. 
+
+<p>To determine the K<sub>d</sub> value, the measurements were fitted with a second degree polynomium. The K<sub>d</sub> value was found as the concentration of SAM that lead to fluorescence at half of the maximum fluorescence - that is, the x value corresponding to the half of the maximum y value. The K<sub>d</sub> values were 302 µM and 218 µM for T1 and T2 respectively. The mutation in T2 made its linker region less stable than than that of T1, and correspondingly more dependent on the target molecule. Counterintuitively, the less stable construct needed the least amount of target molecule to stabilize the optical aptamer for fluorescence - and it stabilized the structure better to reach a higher final fluorescence.<br>
+ The two structures were mixed 1:1 to a total concentration of RNA of 0,26µM and the measurements were carried out again. As seen in figure 3, the total fluorescence was less than for the individual measurements of the constructs. It is possible that this problem could be helped by fusing the two together, as we have done in the detector gadget construct. <br>
+The apparent K<sub>d</sub> value was calculated to be 235 µM, which shows that it was possible to move the apparent K<sub>d</sub> value to a value between the original two. The apparent K<sub>d</sub> was more affected by the T2 construct. This was a result of the higher fluorescence in T2.  </p>
+
+<img src="{{ site.baseurl }}/img/theproject/kddata3.png" class="img-responsive img-center">
+Figure 3: Normalized fluorescence as a function of the concentration of SAM on a logarithmic scale for a mix of T1 and T2 with a total concentration of RNA equal to the ones for Figure 2. The series is an average of 2 series of measurements. 
+
+<p>We have shown that the mutations in T2's linker region makes the sensor more sensitive to the target concentration with a total fluorescence higher than that of the original sensor. We have also shown that by combining the two constructs, it is possible to change the apparent K<sub>d</sub> value of the total construct. </p>
+
+</section>
+
+<section id="Internalcontrol">
+
+<h1> Measurements of orthogonal aptamers</h1>
+
+Intro - find some internal control 
+
+<h2>Synthesis of fluorophores</h2>
+
+Picture of the final 6 fluorophores that were synthesized.
+
+<h2>Fluorescence with DFHBI analogs</h2>
+<p>To find aptamers orthogonal with the Spinach aptamer we created the 5 aptamers from the article by Paige et. al, 2011 along with their respective fluorophores (See [Supplementary](supplementary.html) ). The first step of the orthogonality experiments was to find an aptamer that had a fluorescence enhancement of the same magnitude as Spinach. Therefore we tested the fluorophores on their own with their correct fluorophore, at their optimum excitation wavelengths according to the article. Their individual fluorescent enhancement are shown in figure xx, along with the experimentally decided fluorescence enhancement of Spinach. </p>
+
+<img src="{{ site.baseurl }}/img/theproject/orthogonaldata1.png" class="img-responsive img-center">
+
+Figure 4: Experimentally found fluorescence enhancement (Fluorescence of the aptamer-fluorophore complex divided by the fluorescence of the fluorophore) of the different aptamer-fluorophore complexes synthesized as in the article by Paige et. al in 2011. 
+
+<p>As seen in figure 1, the fluorescence enhancement was virtually non-existent for most of the aptamer-fluorophore complexes. The only exception was the 17-3 & DMHBI complex, which showed an increase in fluorescence when compared to DMHBI alone; however it was not as profound as Spinach & DFHBI. 
+
+<h2>The mango fluorophore</h2>
+
+Upon synthesis of Mango and its fluorophore TO3, the complex was tested for fluorescence. It showed a fluorescence of 9x the fluorescence of TO3 alone at 659 nm (Figure 2A), which is in the right order of magnitude as Spinach, which in this experiment showed an increase of 37x the fluorescence of DFHBI at 497 nm (Figure 2B). <br>
+Orthogonality tests were designed to test the fluorescence of the two aptamers with their own and the other fluorophore at excitation wavelengths corresponding to excitation of Mango-TO3 (610 nm) and Spinach-DFHBI (497 nm), respectively. The best possible outcome would be an excitation of Spinach-DFHBI at 497 nm and an excitation of Mango-TO3 at 610 nm, and no fluorescence in all other combinations. The results show that the only significant fluorescence enhancement is achieved with the complexes with the correct fluorophore and the correct excitation wavelength (Figure 2A & B), but a small enhancement is seen for Spinach with TO3 with excitation at 460 nm. At the maximum emission wavelength for Spinach-DFHBI (497 nm) the enhancement is 4x the fluorescence of TO3 alone. The orthogonality is still intact however, as this fluorescence enhancement does not happen with the Spinach-SAM complex T1, even when adding enough SAM to reach the usual maximum fluorescence with DFHBI (Figure 3). At this point, the fluorescence enhancement is 1.03x for T1-TO3, compared to an enhancement of 3.4x for T1-DFHBI as you will see in (Finding the Kdvalue)[kddata.html] .</p>
+
+<p>Based on these data in can be concluded that Mango will be able to serve as an internal control for our sensor. </p>
+
+<img src="{{ site.baseurl }}/img/theproject/orthogonaldata2.png" class="img-responsive img-center">
+Figure 5: Fluorescence of Mango & TO3 (top left), Spinach & DFHBI (top right), Mango & DFHBI (bottom left) and Spinach & TO3 (bottom right) measured at exc. 460 nm em. 480-600 nm (red and blue graphs) and exc. 610 nm em. 620-800 nm (purple and green graphs). 
+
+<img src="{{ site.baseurl }}/img/theproject/orthogonaldata3.png" class="img-responsive img-center">
+Figure 6: Fluorescence of T1 and TO3. From bottom: TO3, TO3 & T1, TO3 & T1 & SAM 100x[T1], TO3 & T1 & SAM 1,000x[T1] and TO3 & T1 & SAM 10,000x[T1]. 
+
+</section>
+
+<section id="Invivoexperiments">
+
+<h1> In vivo experiments</h1>
+
+<p>Test of the Spinach construct & SAM sensor was also carried out in vivo.</p>
+
+<h2>Design</h2>
+The design was made like this. It was produced like this.
+
+<img src="{{ site.baseurl }}/img/theproject/supplementaryfigures3.png" class="img-responsive img-center">
+
+
+<img src="{{ site.baseurl }}/img/theproject/supplementaryfigures4.png" class="img-responsive img-center">
+
+
+<img src="{{ site.baseurl }}/img/theproject/supplementaryfigures5.png" class="img-responsive img-center">
+
+
+<h2>Confocal microscopy</h2>
+The plasmids containing Spinach and the SAM sensor were transformed into E. coli cells. The results are seen in figure 7. The positive control showed a high level of fluorescence with a mean of 24536.92 per cell when it was together with DFHBI. It clearly displayed an overall increase in the mean fluorescent intensity per particle (Figure 7 a), which was 2.67 times larger when comparing to the negative control (Figure 7 f). When adding methionine, the fluorescence fell to 18462.81 (Figure 7 b), even though the methionine should not have had any effect on the fluorescence of the positive control plasmid. The SAM plasmid construct with DFHBI (Figure 7 c) showed an increase in fluorescence of 1.42 next to the SAM plasmid construct without the fluorophore (Figure 7 e). </p>
+
+<img src="{{ site.baseurl }}/img/theproject/expinvivo.png" class="img-responsive img-center">
+Figure 7: Confocal microscope images of BL21 DE3 E.coli cells transformed with either the pET28c-Positve or pET28c-SAM. m = mean fluorescent intensity per cell, n = cell count. a) Positive control with fluorophore (m = 24536.92, n = 50). The positive control with fluorophore has a marked increase in fluorescence. b) Positive control with fluorophore and methionine (m = 18462.81, n = 32) when methionine is added the fluorescence falls, which is unexpected. c) SAM-Spinach-plasmid with fluorophore (m = 12378.19, n = 16). It shows fluorescence but not as much as the positive control as expected. d) SAM-Spinach-plasmid with the fluorophore and methionine (m =10446.45, n = 11). With the addition of methionine the fluorescence falls as with positive control, which is completely unexpected. e) SAM-Spinach-plasmid without the fluorophore (m = 8740, n = 11). f) Negative control – BL21 DE3 cells without plasmid (m = 9191.89, n = 9) The cells transformed with the SAM-spinach plasmid without the fluorophore and the negative control shows markedly less fluorescence, with no significant difference between them, the fluorescence seen to only be the cells auto-fluorescence.
+
+<img src="{{ site.baseurl }}/img/theproject/expinvivo2.png" class="img-responsive img-center">
+Figure 8: The mean fluorescent intensity of the Spinach constructs in BL21 DE3 E.coli cells with or without fluorescence and methionine. The standard deviations are indicated along with the p-value. * indicates that p < 0.0001. There is significant difference between all the samples from Figure 12 but SAM w/o f and the negative control. This is to be expected, since it only should be the cells own fluorescence that should be seen, since DFHBI only has a negligible fluorescence when not bound to Spinach. Positive = Spinach (positive control), SAM = pET28c-SAM, Negative = no plasmid, w = with, w/o = without, f  = fluorophore and m = methionine.  
+
+<p>This confirmed that it is possible to express both the constructs in vivo by assembling DNA fragments via PCR and then ligating them into plasmids. The most interesting thing was that both constructs showed less mean fluorescence intensity per cell when incubated for 26 h in medium containing a high concentration of methionine. This was not expected, as it should not have affected the positive control, but should have positively affected the SAM sensor. It is possible that the concentration was too high for the cells or the microscope, or that the long incubation time with methionine had a negative effect. </p>
+
+</section>
+
+<section id="Goals reached">
+
+<h1>Goals reached</h1>
+
+<ul>
+	<li> Use and perfect assembly PCR & PCR for the DNA constructs</li>
+	<li> Transcribe the RNA aptamers</li>
+	<li> Verify the results from PCR and transcription with gel electrophoresis</li>
+	<li> Reproduce results concerning optical aptamers found in the articles by Paige, et. al. (2011) and Dolgosheina, et. al. (2014). </li>
+	<li> Design mutations in the spinach-based SAM detecting sensor from the article by Paige, et. al. (2012). </li>
+	<li> Test the mutated constructs for fluorescence with different concentrations of SAM</li>
+	<li> Find the dissociation constants for the functional constructs</li>
+	<li> Test constructs in vivo (Skal ‚àö¬∂ndres til hvilken type af konstrukter der rent faktisk er kommet ind i cellen)</li>
+	<li> Search the literature for aptamers orthogonal to Spinach</li>
+	<li> Design and synthesize orthogonal aptamers</li>
+	<li> Synthesize the small organic compounds to be used as fluorophores for orthogonal aptamers and Spinach.</li>
+	<li> Test the orthogonality of Spinach & other aptamers</li>
+	<li> Design the total construct (Salad construct)</li>
+	<li> Test the total construct for fluorescence of Mango, and the dependence of Spinach fluorescence of SAM</li>
+	<li> Save the world with Salad (Trine: Denne her skal ikke med, skal den? :P)</li>
+</ul>
+
+<p>As seen in figure XX, we have reached almost all of our goals. We have succeeded in making mutations in the linker region of the SAM sensor to change the K<sub>d</sub> value of the complex, thus broadening the dynamic range of the sensor. We have found an aptamer-fluorophore complex, which is orthogonal to the Spinach-DFHBI complex and thus can be used as an internal control for the full construct. The full construct has been designed; however, the time did not allow synthesizing and testing it. </p>
+
+<p>Future experiments would start out with synthesizing and testing the construct for fluorescence and dependence upon SAM both <i>in vitro</i> and <i>in vivo</i>. We would also like to make further mutations on the SAM sensor to achieve greater difference in K<sub>d</sub> values, thus broadening the dynamic range even more. Further experiments would include changing the detection aptamer to have affinity for other targets and aspiring to make interchanging detecting aptamers as easy as possible. It could also be interesting to attempt to use Mango as the optical aptamer of the sensor instead of the internal control, to utilize the high affinity for its fluorophore. </p>
+
+</section>
+
