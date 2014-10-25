@@ -64,7 +64,7 @@ Figure 1: The original SAM sensor as described by Paige et. al in 2012. The sens
 
 <p>The detection aptamer is attached to Spinach through a linker region, which will be able to fold correctly and allow fluorescence only if the specific target is present. When the target is not present, the detection aptamer, and thereby the linker region, is unstable, and the system will not fluoresce significantly. There will always be some fluorescence from spontaneous interactions between the fluorophore and optical aptamer but this is negligible. When the detection aptamer binds its target and folds correctly, the linker region stabilizes the structure of the optical aptamer, Spinach, enabling the binding with DFHBI and the fluorescence. The linker region thus acts as a bridge between the optical aptamer and the detection aptamer and therefore does not interact directly with either of the molecules (fluorophore or target).</p>
 
-<p>However the senser is only capable of detecting whether or not the target is present - not the concentration of it. Therefore, part of this project will focus on attempting to make the sensor concentration dependent by making point mutations in the construct. Another point of focus in the project is the expression of this sensor <i>in vivo</i>, and how the fluorescence may depend as much upon the transcriptional level of RNA as on the concentration of SAM. A fluorescent aptamer will been sought after, which will aid with a baseline fluorescence with which to compare the fluorescence of the sensor. It will be incorporated in the RNA construct to assure that the transcriptional level of the aptamers are the same.</p>
+<p>However the sensor is only capable of detecting whether or not the target is present - not the concentration of it. Therefore, part of this project will focus on attempting to make the sensor concentration dependent by making point mutations in the construct. Another point of focus in the project is the expression of this sensor <i>in vivo</i>, and how the fluorescence may depend as much upon the transcriptional level of RNA as on the concentration of SAM. A fluorescent aptamer will been sought after, which will aid with a baseline fluorescence with which to compare the fluorescence of the sensor. It will be incorporated in the RNA construct to assure that the transcriptional level of the aptamers are the same.</p>
 
 
 </section>
@@ -74,32 +74,13 @@ Figure 1: The original SAM sensor as described by Paige et. al in 2012. The sens
 <h1> Concentration Dependence</h1>
 
 The most important aspect of the project is to show that it is possible to create aptamers with varying binding affinities for a target metabolite, thereby leading to different detection ranges.
-
-<p>To obtain this result, ten different constructs were designed with mutations in their linker region or recognition aptamer (See [The original construct](theoriginalconstruct.html)), which was supposed to give the constructs different affinities for SAM.
-Four constructs were made with mutations in the linker region (T constructs) and six constructs were made with mutations in the aptamer recognizing SAM (SM constructs). Two different linker regions were used for the two different mutations classes, as the most effective linker region (According to Paige et. al) was just 1 GC base pair, which was not suitable for the T constructs. The second most effective linker region was 2 GC base pairs, and this was instead used for the T constructs.
-The wild type linker region consists of two GC-basepairs, as seen in construct T1. The idea behind the mutations was to lower the stability of this stem, therefore one of the GC-pairs were exchanged with an AU-basepair (T2 and T3) or an AC-mismatch-pair (T4). The different mutations can be seen in the figure below.</p>
-
-
-<img src="{{ site.baseurl }}/img/theproject/concdependence1.png" class="img-responsive img-center">
-Figure 2: Constructs with mutations in their linker region. T1 represents the original SAM sensor with a 2 bp linker region and an improved optical aptamer. 
- 
-
-<p>The wild type SAM detecting aptamer is seen in figure 1A as construct SM1. In the constructs SM2 and SM3, one base in the metabolite recognition loop was mutated. This was expected to affect the affinity for the binding of the SAM metabolite. 
-In the SM4 and SM5 constructs, one base in the second loop was mutated. This was expected to affect the stability of the tertiary structure of the aptamer-SAM metabolite complex.
- In the SM6 construct, two GC-basepairs were switched, which was expected to affect the folding of the aptamer. 
-The different constructs can be seen below.</p>
-
-<img src="{{ site.baseurl }}/img/theproject/concdependence2.png" class="img-responsive img-center">
-Figure 3: Constructs with mutations in their detection aptamer. SM1 represents the original SAM sensor with a 1 bp linker region and an improved optical aptamer. 
-
-
-
+The concentration 
 
 
 <h1>Broad dynamic range</h1>
 
 The dynamic range is the area in which the sensor is able to detect a concentration change. The range depends on the binding affinity between the sensor and the target that it should detect, called the dissociation constant or the K<sub>d</sub>-value. To broaden the dynamic range of the sensor, constructs with different K<sub>d</sub>-values would have to be combined - see [The final construct](thefinalconstruct.html). Figure 3 shows the theory behind combining sensors with different K<sub>d</sub>-values to broaden the dynamic range. 
-The K<sub>d</sub>-value can be found experimentally by making numerous measurements with varying target concentrations. The data are plotted in a graph of fluorescence intensity versus target concentration and the K<sub>d</sub>-value is found as the target concentration corresponding to half of the maximum fluorescence.. 
+The K<sub>d</sub>-value can be found experimentally by making numerous measurements with varying target concentrations. The data are plotted in a graph of fluorescence intensity versus target concentration and the K<sub>d</sub>-value is found as the target concentration corresponding to half of the maximum fluorescence. 
 
 <img src="{{ site.baseurl }}/img/theproject/concdependence3.png" class="img-responsive img-center">
 Figure 4: Concept description of broadening the dynamic range by combining two aptamer with different detection ranges. If one construct is able to detect the target molecule in for example the blue range, while another construct is able to detect the target molecule in the green range, combining the two constructs broadens the dynamic range of the biosensor, and enables detection of the target molecule in the full red range.
@@ -112,10 +93,9 @@ Figure 4: Concept description of broadening the dynamic range by combining two a
 
 Another aspect of the project is to find another RNA aptamer for internal control, which is orthogonal to the Spinach-DFHBI complex. The internal control and the Spinach constructs need to be orthogonal in two ways. The maximum emission wavelengths must be different from one another, and the RNA aptamers should not be capable of binding other fluorophores. Furthermore, the fluorescent enhancement of the aptamers should be in the same order of magnitude.
 
-<p>The aptamer-fluorophore complexes from the article by Paige et. al., 2011 all have maximum emission wavelengths at different places.<sup>[1]</sup> These aptamers were recreated, the fluorophores and new analogues of these were synthesized and the complexes were tested for fluorescent enhancement at the fluorometer, FluoroMax-3. 
-In August 2014 the Mango aptamer and its thiazol orange derivative fluorophore, TO3, were discovered and published by Dolgosheina et. al.<sup>[2]</sup> These were also synthesized for orthogonality testing. 
-The Mango-TO3-complex  is expected to have a fluorescence enhancement in the same order of magnitude as Spinach, which will make this aptamer-complex suitable for an internal control. The maximum fluorescence is expected to be at 660 nm, which is expected to be different enough from the maximum fluorescence of Spinach at 497 nm to differentiate the two. <br>
-Experiments on orthogonality will be conducted to test if the Spinach aptamer can bind the Mango fluorophore or if the Mango aptamer can bind the DFHBI. If no cross binding happens the fluorescence signal will be specific and that will make Mango suitable as internal control in the sensor system..</p>
+<p>The aptamer-fluorophore complexes from the article by Paige et. al., 2011 all have maximum emission wavelengths at different places.<sup>[1]</sup> 
+MORE
+In August 2014 the Mango aptamer and its thiazol orange derivative fluorophore, TO3, were discovered and published by Dolgosheina et. al.<sup>[2]</sup>. The Mango-TO3-complex  was reported to have a fluorescence enhancement in the same order of magnitude as Spinach, which will make this aptamer-complex suitable for an internal control. The maximum fluorescence is expected to be at 660 nm, which is expected to be different enough from the maximum fluorescence of Spinach at 497 nm to differentiate the two. </p>
 
 <img src="{{ site.baseurl }}/img/theproject/internalcontrol.png" class="img-responsive img-center">
 Figure 5: 3D depiction of the optical aptamer Mango (purple) with its fluorophore TO3 (cyan). 
