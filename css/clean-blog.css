@@ -447,3 +447,10 @@ body {
 	padding-top: 60px;
 	
 }
+
+.figure-text{
+	font-size: 14px;
+	font-style: italic;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
