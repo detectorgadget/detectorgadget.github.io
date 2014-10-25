@@ -451,8 +451,9 @@ body {
 .figure-text{
 	font-size: 14px;
 	font-style: italic;
-	padding-top: 10px;
+	padding-top: 20px;
 	padding-bottom: 20px;
+	text-align: center;
 }
 
 .about_profile{
