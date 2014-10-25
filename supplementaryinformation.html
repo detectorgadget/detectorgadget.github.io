@@ -5,13 +5,15 @@ sub-title: "Information"
 description: ""
 header-img: "/img/about-bg.jpg"
 sections:
-- Information
 - Sequences
 - PCR
 - Transcription
+- In vivo transcription
+- Fluorescence measurements
+- Synthesis
 ---
 
-<section id="Information">
+<section id="Supplementaryinformation">
 <h1>Supplementary information</h1>
 
 In this section you will find the materials and methods used for synthesizing the different fluorophores, for assembling  and amplifying the DNA, transcribing to RNA, and for collecting the fluorescence specters. You will also find the supplementary figures and the designed sequences. 
@@ -71,7 +73,7 @@ A 12% polyacrylamide gel consists of 19 mL Urea concentrate, 4 mL TBE(10x), 17 m
 <p>The gel was prerun at 600 V for 15 minutes before loading RNA samples with RNA loading buffer (0.6 mL of 0.5 M EDTA, 700 μL of a mixture of formamide, xylencyanol and bromophenol blue supplied by H. C. Høiberg and 13.7 mL formamide). It was mixed 1:1 with RNA samples. </p> 
 
 
-<p><h2>PRECIPITATION</h2></p>
+<p><h2>Precipitation</h2></p>
 
 <p>EtOH precipitation was used to extract RNA from the 8% polyacrylamide gel. The bands were cut out and left overnight in 300°L extraction buffer (0.3 M NaAc, 0.25 mM EDTA) on a shaker at 4°C. The next day the samples were centrifuged at 17.000 rpm at room temperature for 15 minutes, the supernatant was transferred to a new tube and mixed with 750 µL 96% EtOH.  After vortexing, the samples were put on dry ice (-80°C) for 15 minutes and centrifuged again at 17.000 rpm at 4°C for 15 minutes. The supernatant was discarded, and 100-200 µL 70% EtOH was added, and centrifuged at 4°C for 15 minutes. The supernatant was again discarded and the pellets were dried in a fumehood and dissolved in 50 µL water.<br>
 
@@ -91,14 +93,56 @@ The electrocompetent DH5α cells do not have a native T7 polymerase. This had to
 <h2>LB media</h2>
 10 g tryptone, 10 g NaCl and 5 g yeast extract was mixed and dissolved in 1 l Milli-Q water. The solution was sterilized by autoclaving for 30 minutes at 121 °C. It was kept at room temperature to check for contamination. 
 
+<h2>LB solid medium</h2>
+<p>10 g tryptone, 10 g NaCl, 5 g yeast extract and 15 g agar was mixed and dissolved in 1 l Milli-Q water. The solution was then sterilized by autoclaving for 30 minutes at 121 °C. The media was cooled to 65°C and 50 µg µl<sub>-1</sub> kanamycin was added. It was then poured into 5 cm petri dishes. </p>
+
+<h2>Expression of Spinach RNA</h2>
+<p>The Spinach plasmids were cleaved with XhoI to make sure transcription was terminated at the right place. This was done because the T7-terminator does not work as well <i>in vitro</i> as <i>in vivo</i>. 15 µl nuclease-free water, 2 µl 10 X FastDigest® buffer, 2 µl DNA and 1 µl FastDigest® XhoI were mixed and incubated for 20 minutes at 37 °C. Afterwards the enzyme was deactivated by elevating the temperature to 80 °C for 5 minutes. 4 µl 10 X Transcription buffer, 4 µl DTT, 2 µl NT mix and 4 µl T7 polymerase were added to the digestion mixture. The transcription mixture was incubated for 14 hours at 37 °C. It was then seperated on a 10 % polyacrylamide gel, at 600 volts, 40 volt/cm, 40 watts for 1 h 45 m. The band with the RNA was visualized with UV-light and extracted from the gel into 600 µl of RNase-free water by electroelution in MIDI GeBaFlex-tubes. 60 µl of NaAc acetate was added, and the solution was split into two microcentrifuge tubes, where 1155 µl of EtOH 96 % was added (temperature - 20°C). The samples were put on dry ice for 15 minutes and subsequently centrifuged in the cold room for 30 minutes at 17,000 g. The supernatant was then removed and 200 µl of 70 % EtOH (temperature - 20°C) was added. The samples were centrifuged as before and almost all of the supernatant was removed. It was allowed to dry and was then resuspended in RNase-free water. <br>
+Concentrations were measured on a NanoDropTM 1000 with RNase-free water as a blank. </p>
+
+<h2>Plasmid amplification</h2>
+<p>50 µl of electrocompetent DH5α cells were transformed with 4 µl of plasmid in 0.2 cm electroporation cuvettes. The cuvettes were placed on ice before use. The mixture of cells and plasmid was pulsed at 2.5 kV on the Biorad Genepulser with settings set to 0.2 cm cuvettes. Immediately after pulsing, 1 ml LB media was added, and the resuspended cells were incubated for 1 h (1.5 h if it was a ligated plasmid) at 37 °C with 225 rpm shaking. The cells were then plated on LB plates with 50 µg µl<sup>-1</sup> kanamycin. The plasmid was then extracted by performing a maxiprep using the NucleoBond® PC500 kit from Macherey-Nagel according to manufacturer's instructions. The plasmids were sequenced at GATC-biotech for confirmation. A quick screening was performed before sending the plasmid to sequencing.  A plasmid profile was made utilising electrophorese on a 1% agarose gel at 11 volt/cm. Some lanes had the plasmid cleaved by XhoI and/or BglII. </p>
+
+<h2>Ligation</h2>
+<p>To create the pET28c-positive plasmid (the spinach gene inside the pET28c vector) PCR assembled Spinach DNA and the pET28c-SAM were both cleaved with BglII and XhoI (FastDigest® Thermo Scientific) according to the manufacturer's instructions, incubation of 40 minutes at 37 °C. They were then subjected to electrophorese on a 1% agarose gel at 11 V/cm and stained with SybrSafe. SybrSafe was chosen as a stain because of the easy visualization under UV-light, but it was not needed. Under UV-light the band with the DNA was cut and the DNA extracted by using the ìFreeze 'N Squeezeî kit from Quatum Prep.  The vector DNA and insert (assembly DNA) was then ligated using T4 DNA ligase from Thermo scientific (EL0016) according to manufacturer's instructions with freshly made 10X DNA ligase buffer. The only change from the protocol was incubation at 22°C, which was not done in ten minutes but for an hour. 5 µl from the ligation mixture was then dialyzed using Millipore® MF-Millipore™ DNA Filter Paper for a half hour. This step was needed to ensure that the salt concentration was low enough for usage in the Biorad Gene-pulser. The plasmid was then ready for transformation. </p>
+
+<h2>M9 5x salt solution</h2>
+<p>96.5 g Na<sub>2</sub>HPO<sub>4</sub> · H<sub>2</sub>0, 15 g KH<sub>2</sub>PO<sub>4</sub>, 2.5 NaCl and 5 g NH<sub>4</sub>Cl  was mixed and dissolved in a final volume of 1 l Milli-Q water. The solution was then autoclaved for 30 min, at 22 psi and 121 °C. </p>
+
+<h2>M9 medium</h2>
+<p>200 ml 5x M9 salt solution, 2 ml 1 M MgSO<sub>4</sub>, 100 µl 1 M CaCl<sub>2</sub> was mixed, the pH was adjusted to 6.0 and a final volume adjusted to 1 l with Milli-Q water. In one of the mediums 2 mg ml<sup>-1</sup> glucose was added, in another medium 2 mg ml<sup>-1</sup> glucose and 2 mg ml<sub>-1</sub> methionine was added. The final medium was sterilized by vacuum filtration through a 0.22-µm-pore filter. </p>
+
+<h2>Student's t-test</h2>
+<p>A Student's t-test was performed to test significance between the different samples. For all tests two tails were chosen along with double sample with different variance, since this best fitted the data. </p>
+
+
+</section>
+
+<section id="Fluorescencemeasurements">
+<h1>Fluorescence measurements</h1>
+
+<p>All fluorescence measurements were made on the FluoroMax-3 (Inc 1 s, slit length 5 nm (Orthogonality tests) or 10 nm (SAM sensor construct), integration time 0.05 s, 37°C). 
+Measurements were made with the following excitation wavelength and emission range:<br>
+Spinach + DFHBI:Excitation 460 nm, emission range 480 to 600 nm. <br>
+Mango + TOF3: Excitation 610 nm, emission range 620 to 800 nm. <br>
+17-3 / 2-4 / 3-6 + DMHBI: Excitation 400 nm, emission range 410 to 600 nm. <br>
+11-3 + DMABI: Excitation 480 nm, emission range 500 to 600 nm. <br>
+6-8 + 2-HBI: Excitation 400 nm, emission range 500 to 600 nm.</p>
+
+
+<p> DFHBI, DMHBI, 2-HBI, DMABI and TOF-3 were dissolved in a selection buffer with 40 mM HEPES, 125 mM KCl, 1 mM MgCl<sub>2</sub> and 2 µM fluorophore. RNA was added for a final concentration of 0.26 µM. </p>
+
+<h2>Microscope imaging of fluorescent cells</h2>
+
+<p>To express the Spinach-RNA BL21 DE3 E.coli cells were transformed with the plasmid, as previously described (REFERENCE). After the cells were plated and incubated at 37°C overnight. A sample from a colony for the positive control, negative control and Spinach SAM aptamer were incubated with 1 ml M9 media for 26 h. The reason for extensive time was the lack of nutrient in M9 media. Four hours before measurement the samples were induced with 1 mM IPTG. An hour before measurement a 19 µl aliquot was taken and 1 µl 4 mM of DFHBI stock was added for a 200 µM final concentration of DFHBI. 20 minutes before measurement the aliquots were put on a microscope slide with a cover slip on top and sealed with nail polish to prevent evaporation. The fluorescence was detected with a confocal microscope LSM 700 (Zeiss) with excitation at 488 nm 10 mW. The images were then analysed using Image J software where the mean fluorescent intensities per cell were calculated. </p>
 
 
 </section>
 
 <section id="Synthesis">
-<h1>Synthesis</h1>
 
-<p><h2>Synthesis of DFHBI and DFHBI analogs</h2></p>BILLEDE 1
+
+<h2>Synthesis of DFHBI and DFHBI analogs</h2>BILLEDE 1
 
 <p><b>3,5-difluoro-4-hydroxy benzaldehyde (1)</b>To a round-bottomed flask 2,6-difluorophenol (1.50 g, 11.5 mmol) and hexamethylenetetramine (1.60 g, 11.5 mol) in TFA (10 mL) was added. The mixture heated at reflux under argon overnight. The solution was then cooled to room temperature and the solvent was evaporated <i>in vacuo</i>. The crude residue was mixed with  CH<sub>2</sub>Cl<sub>2</sub> and washed with NaHCO<sub>3</sub>. The aqueous layers were acidified to pH 1 with concentrated HCl. The solutionwas then extracted with  CH<sub>2</sub>Cl<sub>2</sub>, dried over MgSO<sub>4</sub> and the solvent was evaporated to dryness in vacuo. The product was passed through a silica plug, washed with pentane after which remaining solvent was evaporated <i>in vacuo</i>. Compound <b>1</b> was obtained as a white solid (1.17 g, 64%). Rf 0.38 (1:2 EtOAc/pentane). mp (uncorr.) 119.7-122.4 °C. <sup>1<sup>H NMR (400 MHz, CDCl<sub>3<sub>) δ<sub>H<sub> (ppm) 9.82 (t, 1H), 7.5 (m, 2H), 5.85 (s, 1H). <sup>13<sup>C NMR (100 MHz, CDCl<sub>3</sub>) δ<sub>C</sub> (ppm) 189.2, 152.0 (dd, <i>J</i>=256 Hz and 6 Hz), 139.0 (t, <i>J</i>=16 Hz), 128.3 (t, <i>J</i>=6 Hz), 113.5 (dd, <i>J</i>=15 Hz and 7 Hz). <sup>19</sup>F NMR (377 MHz, CDCl<sub>3</sub>) δ<sub>F</sub> (ppm) -132.9. HRMS (ESI) <i>m/z</i> [M+H]+ calc. for C<sub>7</sub>H<sub>5</sub>O<sub>2</sub>F<sub>2</sub> 159.0252, found 159.0247.</p>BILLEDE 2
 
