@@ -21,11 +21,9 @@ layout: default
 <div class="container-fluid">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-9 col-lg-offset-1 col-md-9 col-md-offset-1" style="padding-right: 30px;">
-				{{ content }}
-			</div>
-			<nav class="col-md-2 bs-docs-sidebar hidden-sm hidden-xs">
+			<nav class="col-md-3 bs-docs-sidebar hidden-sm hidden-xs">
 				<div class="sidebar sticky">
+					<img src="{{ site.baseurl }}/img/logo_mini.png" width="150px" style="padding-bottom: 10px;">
 					<ul class="nav nav-stacked">
 						{% for section in page.sections %}
 						<li><a href="#{{section | remove: " "}}"> {{section | textilize}}</a></li>
@@ -33,6 +31,9 @@ layout: default
 					</ul>
 				</div>
 			</nav>
+			<div class="col-lg-9 col-lg-offset-0 col-md-9 col-md-offset-0" style="padding-right: 30px;">
+				{{ content }}
+			</div>
 		</div>
 	</div>
 </div>
