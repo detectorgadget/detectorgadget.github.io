@@ -1,0 +1,10 @@
+---
+layout:     post
+title:      "Test Blog for updates"
+subtitle:   "Problems look mighty small from 150 miles up"
+date:       2014-10-20 12:00:00
+author:     "Nuppenau"
+header-img: "img/post-bg-06.jpg"
+---
+
+Is the mic on?

@@ -1,1 +1,12 @@
+# Site settings
+title: Detector Gadget
+email: your-email@yourdomain.com
+description: "Bachelor-produkt Detector Gadget"
+baseurl: "/test"
+url: "http://yourdomain.com"
+
+# Build settings
 markdown: kramdown
+permalink: pretty
+paginate: 5
+exclude: ["node_modules"]
