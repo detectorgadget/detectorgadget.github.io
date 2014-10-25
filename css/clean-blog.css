@@ -149,7 +149,7 @@ hr.small {
 }
 .intro-header {
   background-color: #808080;
-  
+  background-position: center;
   margin-bottom: 50px;
   height: 300px;
 }
