@@ -70,8 +70,8 @@ The mutated RNA constructs were tested for concentration dependency by a series 
 	<div class="col-md-10 col-md-offset-1 figure-text">Figure 6: left) Normalized fluorescence intensity as a function of SAM concentration plotted on a logarithmic scale for T1 and T2. right) Normalized fluorescence intensity as a function of SAM concentration for T1 and T2. All measurements were triplicates. The individual constructs measurements were normalized based on DFHBI fluorescence. Furthermore, to compare the constructs they were normalized to the overall maximum fluorescence.</div>
 </div>   
 
-<p>To determine the K<sub>d</sub> value, the measurements were fitted with a third degree polynomium. The K<sub>d</sub> value was found as the concentration of SAM that lead to fluorescence at half of the maximum fluorescent intensity - that is, the concentration of SAM corresponding to 50% saturation of the construct. The K<sub>d</sub> values were 286 µM and 202 µM for T1 and T2, respectively. The mutation in T2 made its linker region less stable than that of T1, and surprisingly more dependent on the target molecule. Counterintuitively, the least stable construct was most responsive towards the target molecule.<br>
-The two structures were mixed in a 1:1 ratio with a total RNA concentration of 0.26µM and measurements of the affinity was carried out. The result is shown in Figure 7. The total fluorescence was less than for the individual measurements of the constructs. It is possible that this problem could be helped by fusing the two together, as a defined construct could remove uncertainties in stoichiometry of the constructs. <br>
+<p>To determine the K<sub>d</sub> value the measurements were fitted with a degree three polynomium. The K<sub>d</sub> value was found as the concentration of SAM that lead to fluorescence at half of the maximum fluorescent intensity - that is, the concentration of SAM corresponding to 50% saturation of the construct. The K<sub>d</sub> values were 286 µM and 202 µM for T1 and T2, respectively. The mutation in T2 made its linker region less stable than that of T1, and surprisingly more dependent on the target molecule. Counterintuitively, the least stable construct was most responsive towards the target molecule.<br>
+The two structures were mixed in a 1:1 ratio with a total RNA concentration of 0.26µM and measurements of the affinity were carried out. The result is shown in Figure 7. The total fluorescence was less than for the individual measurements of the constructs. It is possible that this problem could be helped by fusing the two together, as a defined construct could remove uncertainties in stoichiometry of the constructs. <br>
 The apparent K<sub>d</sub> value was calculated to be 222 µM, which shows that it was possible to modulate the apparent K<sub>d</sub> value by combining multiple constructs. </p>
 
 <img src="{{ site.baseurl }}/img/results/kddata3.png" class="img-responsive img-center">
@@ -89,9 +89,11 @@ In conclusion we have shown that mutations in the linker region can modulate the
 
 Another aspect of the project is to find an orthogonal optical RNA aptamer, which should function as an internal control for the level of transcription.
 The aptamer should be orthogonal to the Spinach-SAM-DFHBI complex. This includes the following characteristics: 
-(1) The excitation wavelengths of the orthogonal aptamers must not overlap.
-(2) The emission and excitation wavelength between the orthogonal pair must not overlap. 
-(3) The optical RNA aptamers should not display unspecific binding to non-target ligands 
+<ol type="1">
+<li> The excitation or emission wavelengths of the orthogonal aptamers must not overlap.
+<li> The emission wavelength of one aptamer must not overlap with the excitation wavelength of the other. 
+<li> The optical RNA aptamers should not display unspecific binding to non-target ligands. 
+</ol>
 
 <h2>Synthesis of fluorophores and aptamers</h2>
 
@@ -100,7 +102,7 @@ The aptamer should be orthogonal to the Spinach-SAM-DFHBI complex. This includes
 	<div class="col-md-10 col-md-offset-1 figure-text">Figure 8: The synthesized fluorophores. The DFHBI fluorophore and the analogues 2-HBI, NBI, DMHBI, DMABI and NI. An analogue of the Mango aptamer fluorophore TO3-PEG2-biotin (TO3).</div>
 </div>
 
-<p> The five fluorophores, DFHBI, 2-HBI, DMHBI and DMABI from the article by Paige et. al, 2011 (See [Supplementary](supplementary.html) ) were synthesized. In addition two new fluorophore analogues were proposed and synthesized. It was anticipated that these would display a bathochromic fluorescence shift due to the extended pi network of the NI fluorophore and the NBI having a nitro-group with a hydroxyl-group acting as an auxochrome. 
+<p> The four fluorophores, DFHBI, 2-HBI, DMHBI and DMABI from the article by Paige et. al, 2011 were synthesized. In addition to these two new fluorophore analogues were proposed and synthesized. It was anticipated that these would display a bathochromic fluorescence shift due to the extended pi network of the NI fluorophore and the NBI having a nitro-group with a hydroxyl-group acting as an auxochrome. Lastly TO3 from the article by Dolgosheina et. al was synthesized. This fluorophore binds to the optical aptamer called Mango.<sup>6</sup> The structures of the fluorophores are shown in Figure 8.
 
 The corresponding aptamers were produced by assembly PCR, amplified by PCR and transcribed into RNA. The gels showing successful amplification are shown below.<sup>1</sup>   
 
@@ -197,4 +199,7 @@ m = mean fluorescent intensity per cell, n = cell count </div>
 <li> Ponchon, L; Dardel, F; (2007) <i>Nat. Methods</i>, <b>4</b>, 571-576  </li>
 
 <li>Vallee-Belisle, A.; Ricci, F.; and Plaxco, K.W. (2012). Engineering biosensors with extended, narrowed, or arbitrarily edited dynamic range. <i>J. Am. Chem. Soc.</i> <b>134</b>, 2876-2879.</li>
+
+<li>Dolgosheina, E. V; Jeng, S. C. Y.; Panchapakesan, S. S. S.; Cojocaru, R.; Chen, P. S. K.; Wilson, P. D.; Hawkins, N.; Wiggins, P. A.; Unrau, P. J. <i>ACS Chem. Biol.</i>, 2014, <b>9</b>, pp 2412–2420</li>
+
 </ol>
