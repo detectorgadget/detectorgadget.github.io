@@ -19,11 +19,11 @@ sections:
 
 <p> An aptamer is an nucleic acid or a peptide molecule that binds to a target with affinities and specificities that rival those of antibodies. Optical aptamers are capable of inducing fluorescence in a target molecule upon binding. An example of this is the RNA aptamer called Spinach (discovered by Paige, et. al. in 2011, enhanced by Strack, et. al. in 2013).<sup>2,3</sup> This aptamer binds the molecule 3,5-difluoro-4-hydroxybenzylidene imidazolinone (DFHBI) (see animation) and causes it to fluoresce at a wavelength of 495 nm. It has an fluorescent enhancement that rivals that of green fluorescent protein and has almost no photobleaching.</p>
 
-<p>In 2012 Paige et. al. found that fusing the Spinach aptamer with an s-adenosyl methionine (SAM) aptamer (as seen in Figure 2) made detection of SAM possible. They furthermore showed that other small-molecule aptamers work in the system showing its great flexibility.<sup>4</sup></p>
+<p>In 2012 Paige et. al. found that the Spinach aptamer could be made into a sensor for small molecules by fusing it to other small molecule binding aptamers. One of these were fused with an s-adenosyl methionine (SAM) aptamer (as seen in Figure 1) and made detection of SAM possible.<sup>4</sup></p>
 
 <img src="{{ site.baseurl }}/img/theproject/theoriginalconstruct1.png" class="img-responsive img-center">
 <div class="row">
-	<div class="col-md-10 col-md-offset-1 figure-text">Figure 2: The original SAM sensor as described by Paige et. al in 2012. The sensor RNA consists of the optical aptamer Spinach (black), a linker region (orange) and a detection aptamer (blue). When the aptamer binds its target, stabilization of the linker region is promoted, enabling Spinach to bind DFHBI and activate fluorescence. Picture retrieved from [4]. </div>
+	<div class="col-md-10 col-md-offset-1 figure-text">Figure 1: The original SAM sensor as described by Paige et. al in 2012. The sensor RNA consists of the optical aptamer Spinach (black), a linker region (orange) and a detection aptamer (blue). When the aptamer binds its target, stabilization of the linker region is promoted, enabling Spinach to bind DFHBI and activate fluorescence. Picture retrieved from [4]. </div>
 </div>
 
 
@@ -34,14 +34,14 @@ sections:
 <div class="border"></div>
 <h1>The Project Idea</h1>
 
-<p> The goal of the project was to develop a sensor that can detect small molecules in a broad range of concentrations and could give a reliable signal <i>in vivo</i>. To obtain a sensor with a broad dynamic range we wanted to construct RNA sensors with different affinities for the same target molecule. These can be combined to improve the dynamic range of the sensor. We furthermore wanted to include a internal control for the level of transcription, as this can vary from cell to cell and result in an inaccurate readout. We therefore need an orthogonal optical aptamer, which would fluoresce independently of the target molecule concentration. To build this system we chose to use the Spinach-SAM aptamer system described by Paige et. al.<sup>4</sup>
+<p> Our idea was to develop an efficient sensor system that can detect small molecules <i>in vivo</i>. We based our sensor on the Spinach-SAM aptamer system described by Paige et. al.<sup>4</sup> but wanted to extend the concentration range that it can detect. To do this we wanted to combine several Spinach-SAM sensors with different affinities for SAM. We reasoned that this could be accomplished by changing the stability of the transducer region between Spinach and SAM aptamers (Fig. 2). Combining the Spinach-SAM aptamers with different affinity for SAM would result in a sensor with a broad dynamic range.<sup>5</sup> Next we wanted to add an internal control to determine the concentration of the sensor in relation to the variable SAM dependent signal. To do this we wanted to include an orthogonal optical aptamer, which would fluoresce independently of the target molecule concentration. The aptamer sensors and control would be integrated on the same RNA strand to obtain known stoichiometry of the sensors and reliable readout (Fig. 2).
 </p>
 
 <p>We aim to achieve this by designing different small molecule sensors with different stabilities towards the target molecule and furthermore investigate the orthogonality.</p>    
 
 <img src="{{ site.baseurl }}/img/theproject/Projectidea.png" class="img-responsive img-center">
 <div class="row">
-	<div class="col-md-10 col-md-offset-1 figure-text">Figure 3: The Detector Gadget. The construct consists of two modified Spinach-SAM concentration dependent complexes fused to an orthogonal optical aptamer that functions as internal standard for RNA transcription level. When subjected to low concentrations of SAM only one of the two complexes will fold correctly and induce fluorescence. As the concentration of SAM increases the second complex will also fold correctly and induce fluorescence. 
+	<div class="col-md-10 col-md-offset-1 figure-text">Figure 2: The Detector Gadget. The construct consists of two modified Spinach-SAM concentration dependent complexes fused to an orthogonal optical aptamer that functions as internal standard for RNA transcription level. When subjected to low concentrations of SAM only one of the two complexes will fold correctly and induce fluorescence. As the concentration of SAM increases the second complex will also fold correctly, induce fluorescence and increase the overall fluorescence. 
 	</div>
 </div>
 
@@ -55,9 +55,9 @@ sections:
 
 The overall goal of the project was to create a concentration dependent biosensor. The biosensor should consist of multiple small molecule dependent aptamers with different affinities for the target creating a broader dynamic range. To ensure a reliable readout in a cellular setting the sensor must contain an internal control for the transcription level.
 In order to achieve this the following subgoals had to be reached:
-1. Design and test aptamer sensors with different concentration dependency
-2. Evaluate fluorophore-aptamer pairs to create an orthogonal internal control for the transcription level
-3. Setup an evaluation platform for testing the biosensor <i>in vivo</i>   
+(1) Design and test aptamer sensors with different concentration dependency.
+(2) Evaluate fluorophore-aptamer pairs to create an orthogonal internal control for the transcription level.
+(3) Setup an evaluation platform for testing the biosensor <i>in vivo</i>   
 
 We devised the following workflow:
 
@@ -76,12 +76,13 @@ We devised the following workflow:
 <ol type="1">
 <li> Alberts, B; Johnson, A; Lewis, J; Raff, M; Roberts, K; Walter, P.  <i> Molecular Biology of The Cell 5th Edition.</i>, Garland Science, Abingdon. </li>
 
-<li> Paige, J. S., Wu, K. Y., and Jaffrey, S. R. (2011) RNA mimics of green fluorescent protein. <i>Science</i> <b>333</b>, 642.</li>
+<li> Paige, J. S., Wu, K. Y., and Jaffrey, S. R. (2011) RNA mimics of green fluorescent protein. <i>Science</i>, <b>333</b>, 642.</li>
 
-<li> Strack, R. L., Disney, M. D., and Jaffrey, S. R. (2013) A superfolding Spinach2 reveals the dynamic nature of trinucleotide repeat-containing RNA. <i>Nat. Methods</i> <b>10</b>, 1219−1224</li>
+<li> Strack, R. L., Disney, M. D., and Jaffrey, S. R. (2013) A superfolding Spinach2 reveals the dynamic nature of trinucleotide repeat-containing RNA. <i>Nat. Methods</i>, <b>10</b>, 1219−1224</li>
 
-<li> Paige, J. S., Nguyen-Duc, T., Song, W. Jaffrey, S. R. (2012) Fluorescence Imaging of Cellular Metabolites with RNA. <i>Science<i>, <b>335<b> 1194 </li>
+<li> Paige, J. S., Nguyen-Duc, T., Song, W. Jaffrey, S. R. (2012) Fluorescence Imaging of Cellular Metabolites with RNA. <i>Science<i>, <b>335</b>, 1194 </li>
 
+<li>Vallee-Belisle, A., Ricci, F., and Plaxco, K.W. (2012). Engineering biosensors with extended, narrowed, or arbitrarily edited dynamic range. <i>J. Am. Chem. Soc.</i> <b>134</b>, 2876-2879.</li>
 </ol>
 
 
