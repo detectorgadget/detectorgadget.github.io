@@ -50,41 +50,30 @@ Due to the lenght of the RNA aptamers, smaller DNA fragments were purschased and
 
 <h2>Measurement of K<sub>d</sub> values</h2>
 
-The mutated RNA constructs were tested for effect by a series of measurements of the fluorescence of 
+The mutated RNA constructs were tested for concentration dependency by a series of measurements of fluorescence in response to the concentration of SAM.   
 
-<ul>
-	<li>DFHBI</li>
-	<li>DFHBI & RNA</li>
-	<li>DFHBI, RNA & SAM</li>
-</ul>
+<p>The RNA and DFHBI concentration were kept constant at 0.26 µM and 2.6 µM respectively, while the SAM concentrations were increased from 100x uptill 10000x the concentration of RNA. The fluorescent enhancement for the 10 constructs are shown in figure 5.</p>
 
-<p>The final concentrations of SAM in the first trial was 100x, 1,000x and 10,000x the concentration of RNA, which was held at 0.26 µM. This was tried on our 10 constructs, which gave the results seen in figure 1.</p>
+T1 showed a fluorescent enhancement of 3.8 while T2 was enhanced by a factor of 9.6
 
-FLuorescent enhancement of T1 and T3 3.8 9.6
+<img src="{{ site.baseurl }}/img/results/kddata1.png" class="img-responsive img-center">
+Figure 5: The relative fluorescent enhancement of the constructs. The fluorescence of DFHBI was measured (light blue), then RNA was added (orange), followed by SAM in 3 different concentrations: 100x[RNA] (grey), 1000x[RNA] (yellow) and 10000x[RNA] (dark blue). The last measurement is a control with no added RNA. All measurements were done after 10 minutes of incubation. 
 
-<img src="{{ site.baseurl }}/img/results/kddata1.png" width="80%" class="img-responsive img-center">
-<div class="row">
-	<div class="col-md-10 col-md-offset-1 figure-text">Figure 5: Fluorescence relative to the fluorescence of DFHBI after 10 minutes of adding: DFHBI (light blue), RNA (orange), and SAM in 3 different concentrations: 100x[RNA] (grey), 1.000x[RNA] (yellow) and 10.000x[RNA] (dark blue). The last measurement is a control with no added RNA. </div>
-</div>
+<p>Only two constructs responded to variations in SAM concentrations; T1 and T2. T1 has an unmutated linker region while T2 has a mutated GC to AU-basepair. These two constructs were selected for further investigation. 
 
-<p>The only 2 constructs responding to DFHBI and SAM are T1 and T2. T1 is the original sensor from Paige, et. al. 2013, except for a few improvements on the optical sensor, and T2 is a mutated form of T1 with an AT-basepair instead of a GC-basepair in the linker region. These two were selected for further testing, where the K<sub>d</sub> value was determined by more sensitive addition of SAM. This lead to the graphs in figure 2, which show an average over 3 series of measurements on each construct.</p>
+The K<sub>d</sub> value was determined based on fluorescent measurements made with small increments in the addition of SAM. The results are shown in Figure 6. </p>
 
-<img src="{{ site.baseurl }}/img/results/kddata2ny.png" width="80%" class="img-responsive img-center">
-<div class="row">
-	<div class="col-md-10 col-md-offset-1 figure-text">Figure 6: Normalized fluorescence as a function of the concentration of SAM on a logarithmic scale for T1 and T2. Both series are an average of 3 series of measurements. </div>
-</div>
+<img src="{{ site.baseurl }}/img/results/kddata2ny.png" class="img-responsive img-center">
+Figure 6: Normalized fluorescence intensity for T1 and T2 as a function of the SAM concentration. left) SAM concentration plotted on a logarithmic scale. right) SAM concentration plot. All measurements were triplicates. The individual constructs measurements were normalized based on DFHBI fluorescence. Furthermore, to compare the constructs they were normalized to the overall maximum fluorescence.   
 
-<p>To determine the K<sub>d</sub> value, the measurements were fitted with a second degree polynomium. The K<sub>d</sub> value was found as the concentration of SAM that lead to fluorescence at half of the maximum fluorescence - that is, the x value corresponding to the half of the maximum y value. The K<sub>d</sub> values were 302 µM and 218 µM for T1 and T2 respectively. The mutation in T2 made its linker region less stable than than that of T1, and correspondingly more dependent on the target molecule. Counterintuitively, the less stable construct needed the least amount of target molecule to stabilize the optical aptamer for fluorescence - and it stabilized the structure better to reach a higher final fluorescence.<br>
- The two structures were mixed 1:1 to a total concentration of RNA of 0,26µM and the measurements were carried out again. As seen in figure 3, the total fluorescence was less than for the individual measurements of the constructs. It is possible that this problem could be helped by fusing the two together, as we have done in the detector gadget construct. <br>
+<p>To determine the K<sub>d</sub> value, the measurements were fitted with a third degree polynomium. The K<sub>d</sub> value was found as the concentration of SAM that lead to fluorescence at half of the maximum fluorescence - that is, the concentration of SAM corresponding to 50% saturation of the construct. The K<sub>d</sub> values were 302 µM and 218 µM for T1 and T2 respectively. The mutation in T2 made its linker region less stable than than that of T1, and correspondingly more dependent on the target molecule. Counterintuitively, the less stable construct needed the least amount of target molecule to stabilize the optical aptamer for fluorescence - and it stabilized the structure better to reach a higher final fluorescence.<br>
+ The two structures were mixed 1:1 to a total concentration of RNA of 0,26µM and the measurements were carried out again. As seen in Figure 3, the total fluorescence was less than for the individual measurements of the constructs. It is possible that this problem could be helped by fusing the two together, as we have done in the detector gadget construct. <br>
 The apparent K<sub>d</sub> value was calculated to be 235 µM, which shows that it was possible to move the apparent K<sub>d</sub> value to a value between the original two. The apparent K<sub>d</sub> was more affected by the T2 construct. This was a result of the higher fluorescence in T2.  </p>
 
-<img src="{{ site.baseurl }}/img/results/kddata3.png" width="80%" class="img-responsive img-center">
-<div class="row">
-	<div class="col-md-10 col-md-offset-1 figure-text">Figure 7: Normalized fluorescence as a function of the concentration of SAM on a logarithmic scale for a mix of T1 and T2 with a total concentration of RNA equal to the ones for Figure 2. The series is an average of 2 series of measurements. </div>
-</div>
+<img src="{{ site.baseurl }}/img/results/kddata3.png" class="img-responsive img-center">
+Figure 7: Normalized fluorescence as a function of the concentration of SAM on a logarithmic scale for a mix of T1 and T2 with a total concentration of RNA equal to the ones for Figure 2. The series is an average of 2 series of measurements. 
 
 <p>We have shown that the mutations in T2's linker region makes the sensor more sensitive to the target concentration with a total fluorescence higher than that of the original sensor. We have also shown that by combining the two constructs, it is possible to change the apparent K<sub>d</sub> value of the total construct. </p>
-
 </section>
 
 <section id="Orthogonalopticalaptamers">
@@ -170,13 +159,8 @@ To include a positive control for the experiments a plasmid containing only Spin
 	<div class="col-md-10 col-md-offset-1 figure-text">Figure 14: </div>
 </div>
 
-The DNA was digested with restriction enzymes and cloned into the plasmid. After transformation into E. coli and cultering the plasmid DNA was isolated and the successfull incorporation of the insert was confirmed by restriction digestion and sequencing.    
+The DNA was digested with restriction enzymes and cloned into the plasmid. After transformation into E. coli and cultering the plasmid DNA was isolated and the successfull incorporation of the insert was investigated for three colonies. From restriction digestion and sequencing data one colony confirmed the pressence of the correct insert.    
 
-
-<img src="{{ site.baseurl }}/img/results/supplementaryfigures5.png" width="60%" class="img-responsive img-center" width="50%">
-<div class="row">
-	<div class="col-md-10 col-md-offset-1 figure-text">Figure 15: </div>
-</div>
 
 <h2>Confocal fluoroscence microscopy</h2>
 
